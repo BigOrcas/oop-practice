@@ -1,4 +1,6 @@
-package org.example;
+package org.example.passwordvalidation;
+
+import org.example.passwordvalidation.PasswordGenerator;
 
 public class WrongPasswordGenerator implements PasswordGenerator {
 

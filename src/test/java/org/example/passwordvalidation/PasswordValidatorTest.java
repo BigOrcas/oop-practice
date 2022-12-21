@@ -1,5 +1,6 @@
-package org.example;
+package org.example.passwordvalidation;
 
+import org.example.passwordvalidation.PasswordValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -19,7 +20,7 @@ public class PasswordValidatorTest  {
     @DisplayName("비밀번호가 최소 8자 이상, 12자 이하면 예외가 발생하지않는다. 너가 뭔데?")
     @Test
     void validatePasswordTest(){
-        assertThatCode(()->PasswordValidator.validate("bigwhale18"))
+        assertThatCode(()-> PasswordValidator.validate("bigwhale18"))
                 .doesNotThrowAnyException();
     }
     
