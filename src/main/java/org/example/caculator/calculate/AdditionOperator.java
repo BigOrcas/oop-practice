@@ -1,6 +1,8 @@
-package org.example.caculator;
+package org.example.caculator.calculate;
 
-public class AdditionOperator implements NewArithmeticOperator{
+import org.example.caculator.NewArithmeticOperator;
+
+public class AdditionOperator implements NewArithmeticOperator {
     @Override
     public boolean supports(String operator){
         return "+".equals(operator);

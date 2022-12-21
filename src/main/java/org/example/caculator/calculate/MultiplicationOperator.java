@@ -1,4 +1,6 @@
-package org.example.caculator;
+package org.example.caculator.calculate;
+
+import org.example.caculator.NewArithmeticOperator;
 
 public class MultiplicationOperator implements NewArithmeticOperator {
     @Override
